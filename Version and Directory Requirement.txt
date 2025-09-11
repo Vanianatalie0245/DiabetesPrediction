@@ -1,0 +1,32 @@
+Requirement 
+
+Python: version 3.11.9 
+Flask: version 3.1.0
+imbalanced-learn: 0.12.4
+joblib: 1.4.2
+matplotlib: 3.9.2
+numpy: 2.0.2
+pandas: 2.2.3
+scikit-learn: 1.5.2
+scipy: 1.14.1
+tabulate: 0.9.0
+
+Directory structure requirement  
+(To ensure the app.py runs smoothly, the directory needs to be separated as follow)
+
+static (folder)
+|_images (folder)
+   |_images1 (file image used)
+   |_images2 (file image used)
+|_script (folder)
+   |_script.js (javascript file)
+|_styles (folder)
+   |_styles (css file)
+templates (folder)
+|_index.html (html file)
+app.py (.py file)
+diabetes3 (.ipynb file) --> used for model building
+final_rff_model_pkl (final model .pkl)
+preprocessing_pipeline1_pkl (preprocessing pipeline .pkl)
+RTML_with_Insulin (dataset 1)
+diabetes (dataset 2) 
